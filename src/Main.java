@@ -15,14 +15,16 @@ public class Main {
         }
 
         /*
-        Same problem as before and if statement will always
-        be true
+        Same problem as before and if statement will always be true because no ERROR in that case
+        with booleans
         boolean isCar = false;
         if(isCar = true) {
             // execute Code
             System.out.println("This is not supposed to happen");
         }
         */
+
+        //if(isCar) is the more professional way to check for "true"
         boolean isCar = false;
         if(isCar == true) {
             System.out.println("This is not supposed to happen");
